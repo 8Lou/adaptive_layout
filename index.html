@@ -1,128 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lous_layout</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="wrapper">
-        <div class="background-wrapper" style="background-image: url(img/Слой.png);">
-      <header class="header header-main">
-        <div class="container">
-          <div class="header__inner">
+        <header class="header header-main">
+            <div class="container">
+                <div class="header__inner">
 
-            <a href="#" class="logo">
-              <img src="img/LoremIpsum.Net.png" alt="" class="logo__img" />
-            </a>
-            
-            <nav class="menu">
-              <ul class="menu__list">
-                <li class="menu__list-item">
-                  <a href="#" class="menu__list-link menu__list-link_active">БИЗНЕС</a>
-                </li>
-                <li class="menu__list-item">
-                  <a href="#" class="menu__list-link">О НАС</a>
-                </li>
-                <li class="menu__list-item">
-                  <a href="#" class="menu__list-link">ЦЕНЫ</a>
-                </li>
-                <li class="menu__list-item">
-                  <a href="#" class="menu__list-link">ОФОРМИТЬ ЗАКАЗ</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </header>
+                    <a href="#" class="logo">
+                        <img src="img/LoremIpsum.Net.png" alt="" class="logo__img" />
+                    </a>
 
-      <main class="main">
-        <section class="">
-          <div class="container">
-            <h1 class="title">LOREM IPSUM DOLOR SIT</h1>
-            <h1 class="title">AMETCONSECTETUR ADIPISCING</h1>
-          </div>
-
-          <div class="">
-            <h3 class="title">Totam rem aperiam eaque ipsa</h3>
-
-            <h3 class="title">
-              Sit voluptatem accusantium doloremque laudantium
-            </h3>
-
-            <h3 class="title">
-              Sed ut perspiciatis, unde omnis iste natus error
-            </h3>
-
-            <button>
-              <a href="#" class="top__link"> ЗАКАЗАТЬ </a>
-            </button>
-            <button>
-              <a href="#" class="top__link"> ПОДРОБНЕЕ </a>
-            </button>
-          </div>
-          </div>
-        </section>
-
-                <section class="top">
-          <div class="container">
-            <h1 class="title">ОФОРМЛЕНИЕ ЗАКАЗА</h1>
-          </div>
-
-          <div class="">
-            <h3 class="title">Перед заполнением формы ознакомьтесь с нашей схемой работы!</h3>
-            
-          </div>
-        </section>
-
-        <div class="slider">
-          <div class="swiper">
-            <div class="swiper-wrapper">
-              <div
-                class="swiper-slide"
-              >
-                1
-              </div>
-
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link menu__list-link active">БИЗНЕС</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">О НАС</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">ЦЕНЫ</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">ОФОРМИТЬ ЗАКАЗ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <div class="swiper-pagination"></div>
-          </div>
+        </header>
+
+        <main class="main">
+         
+                <section class="background-wrapper" style="background-image: url(img/Слой.png);">
+                    <div class="section-item">
+                        <div class="section-item__title">
+                            <span class="active">LOREM IPSUM</span>
+                            <span>DOLOR SIT</span><br>
+                            <span>AMETCONSECTETUR</span>
+                            <span class="active">ADIPISCING</span>
+                        </div>
+                        
+                        <div class='section-item__list'>
+                            <h3 class="section-item__text">At vero eos et accusamus et iusto odio dignissimos ducimus!</h3>
+                            <h3>- Totam rem aperiam eaque ipsa</h3>
+                            
+                            <h3>
+                                - Sit voluptatem accusantium doloremque laudantium
+                            </h3>
+                            
+                            <h3>
+                                - Sed ut perspiciatis, unde omnis iste natus error
+                            </h3>
+                        </div>
+                        
+                        <div>
+                            <button class='button-active'>
+                                <a href="#" class="button__link"> ЗАКАЗАТЬ </a>
+                            </button>
+                            <button>
+                                <a href="#" class="button__link"> ПОДРОБНЕЕ </a>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="background-wrapper" style="background-image: url(img/Слой2.png)">
+                    <div class="section__container title">
+                        <span>ОФОРМЛЕНИЕ</span>
+                        <span class="active">ЗАКАЗА</span>                           
+                            <h3 class="title">Перед заполнением формы ознакомьтесь с нашей схемой работы!</h3>
+                    </div>
+                </section>
+
+        <div class="slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">1</div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
-      </main>
+    </main>
 
-      <footer class="footer">
-        <div class="container">
-          <nav class="footer__menu">
-            <ul class="footer__menu-list">
-              <li class="footer__menu-item">
-                © 2018 «LoremIpsum.net» Все права защищены.
-              </li>
-              <li class="footer__menu-item">
-                <p class="foote__menu-title">Qiwi wallet</p>
-              </li>
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            © 2018 «LoremIpsum.net» Все права защищены.
+                        </li>
+                        <li class="footer__menu-item">
+                            <p class="foote__menu-title">Qiwi wallet</p>
+                        </li>
 
-              <li class="footer__menu-item">
-                <p class="foote__menu-title">Yandex Money</p>
-              </li>
+                        <li class="footer__menu-item">
+                            <p class="foote__menu-title">Yandex Money</p>
+                        </li>
 
-              <li class="footer__menu-item">
-                <p class="foote__menu-title">Web Money</p>
-              </li>
+                        <li class="footer__menu-item">
+                            <p class="foote__menu-title">Web Money</p>
+                        </li>
 
-              <li class="footer__menu-item">
-                <p class="foote__menu-title">info@ipsum228.com</p>
-              </li>
-              <li class="footer__menu-item">
-                <p class="foote__menu-title">Мы вконтакте</p>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </footer>
+                        <li class="footer__menu-item">
+                            <p class="foote__menu-title">info@ipsum228.com</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <p class="foote__menu-title">Мы вконтакте</p>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
     </div>
 
     <script src="js/main.js"></script>
-  </body>
+</body>
+
 </html>
