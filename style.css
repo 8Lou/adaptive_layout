@@ -61,6 +61,11 @@ h3 {
   background-color: rgba(16, 16, 29, 0.9);
   height: 100px;
   padding: 44px 375px 39px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 .header__inner {
@@ -121,8 +126,7 @@ h3 {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding: 80px 0 30px;
-  margin-bottom: 80px;
+  padding: 80px 0;
   font-size: 36px;
   font-weight: 600;
   color: #fefefe;
@@ -131,6 +135,59 @@ h3 {
   font-size: 16px;
   font-weight: 400;
 }
+.footer{
+    background-color: #3D4050;
+    color: #C3C3C3;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  font-size: 13px;
+  font-weight: 400;
+}
+.footer__menu{
+    display: flex;
+    justify-content: center;
+}
+.footer__menu-list{
+    display: flex;
+gap: 40px;
+}
+.footer__menu-item{ 
+position: relative; 
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.footer__menu-item:first-child::after {
+  content: ""; 
+  position: absolute; 
+  top: 50%; 
+  right: -40px; 
+  width: 1px; 
+  height: 20px; 
+  background-color: #ccc; 
+  transform: translateY(-50%); 
+  }
+  .footer__menu-item:nth-child(5)::after {
+  content: ""; 
+  position: absolute; 
+  top: 50%; 
+  right: -40px; 
+  width: 1px; 
+  height: 20px; 
+  background-color: #ccc; 
+  transform: translateY(-50%); 
+  }
+  /* один из способов вертикальной линии)
+  .vertical-line {
+    display: inline-block; 
+    width: 2px; 
+    height: 20px; 
+    background-color: #ffffff;
+        color: #fff;
+
+} */
 
 button {
   padding: 15px 31px;
@@ -174,6 +231,10 @@ button:hover {
   gap: 30px;
   color: #ffffff;
 }
+.section__list{
+  margin-bottom: 80px;
+  /* padding-bottom: 80px; */
+}
 .section__list-title {
   flex-direction: column;
   margin: 0 -60px;
@@ -214,7 +275,7 @@ button:hover {
   gap: 30px;
   max-width: 1170px;
   width: 100%;
-  margin: 80px auto;
+  margin: 0 auto;
 }
 
 .form-row {
