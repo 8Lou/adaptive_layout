@@ -96,7 +96,9 @@ h3 {
 .active {
   color: #43abf0;
 }
-
+section{
+  padding-bottom: 54%;
+}
 .section-item {
   padding-top: 5%;
   padding-left: 17%;
@@ -417,7 +419,7 @@ input[type="range"]::-ms-thumb {
   }
   .menu__list {
     gap: 13%;
-    padding: 3% 0;
+    padding: 6% 0;
   }
   .button__page {
     flex-direction: column;
@@ -453,7 +455,7 @@ input[type="range"]::-ms-thumb {
     font-size: 1rem;
   }
   .form {
-    padding: 30%;
+    padding: 40%;
     margin-bottom: 20%;
   }
   button,
